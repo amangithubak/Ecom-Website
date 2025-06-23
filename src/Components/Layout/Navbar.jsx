@@ -24,8 +24,6 @@ const Navbar = () => {
     { path: "/pages", label: "Pages" },
     { path: "/products", label: "Products" },
     { path: "/shop", label: "Shop" },
-    { path: "/blog", label: "Blog" },
-    { path: "/contact", label: "Contact" },
   ];
 
   // Check if current path matches menu item
@@ -208,13 +206,13 @@ const Navbar = () => {
                         >
                           Shop
                         </li>
-                        <li className="text-[#0D0E43] text-xl hover:text-[#FB2E86]  cursor-pointer py-2 w-full text-start font-bold">
+                        {/* <li className="text-[#0D0E43] text-xl hover:text-[#FB2E86]  cursor-pointer py-2 w-full text-start font-bold">
                           Blog
                         </li>
 
                         <li className="text-[#0D0E43] text-xl hover:text-[#FB2E86]  cursor-pointer py-2 w-full text-start font-bold">
                           Contact
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
 
@@ -238,3 +236,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
